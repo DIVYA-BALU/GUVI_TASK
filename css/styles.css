@@ -14,3 +14,11 @@ body{
   color: #fff;
   background-color: #000;
 }
+
+#editForm{
+  display: none;
+}
+
+#welcomeBack{
+  text-align:center;
+}

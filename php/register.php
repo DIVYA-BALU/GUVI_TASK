@@ -22,8 +22,6 @@ $stmt->bind_param("sss", $username, $email, $password);
 $username = $_POST['username'];
 $email = $_POST['email'];
 $password = $_POST['password'];
-// $password = password_hash($_POST['password'], PASSWORD_DEFAULT); // hash password for security
-// $password= sha1($password);
 // Execute statement and return response to AJAX request
 if ($stmt->execute()) {
     $response = array(
